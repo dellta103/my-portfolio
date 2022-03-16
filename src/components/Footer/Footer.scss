@@ -1,0 +1,20 @@
+.footer {
+  border-top: #585151 1px solid;
+  background-color: #262626;
+  height: 200px;
+  .text {
+    span {
+      font-size: 40px;
+    }
+  }
+  .links {
+    a {
+      text-decoration: none;
+      transition: 0.5s;
+      font-size: 30px;
+      &:hover {
+        color: #ff9800;
+      }
+    }
+  }
+}

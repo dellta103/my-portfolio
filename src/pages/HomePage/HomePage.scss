@@ -1,0 +1,55 @@
+.homepage {
+  background-color: #262626;
+  height: 100vh;
+  margin-top: 90px;
+  .content {
+    .left {
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      img {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+      }
+      .links {
+        a {
+          font-size: 25px;
+          transition: 0.5s;
+          &:hover {
+            color: #ff9800;
+          }
+        }
+      }
+      form {
+        width: 100%;
+        button {
+          width: 100%;
+          height: 40px;
+          border: #ff9800 1px solid;
+          transition: 0.5s;
+          &:hover {
+            background-color: #ff9800;
+          }
+        }
+      }
+    }
+    .right {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .content {
+      width: 95% !important;
+      .left {
+        grid-column: span 3 / span 3 !important;
+      }
+      .right {
+        grid-column: span 3 / span 3 !important;
+      }
+    }
+  }
+}
