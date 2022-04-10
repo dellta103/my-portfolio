@@ -1,0 +1,10 @@
+.swiper-button-prev,
+.swiper-button-next {
+  top: 25%;
+  position: absolute;
+}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -7,7 +7,7 @@ export default function Navbar({ type }) {
     setMiniActive((prev) => !prev);
   };
   return (
-    <div className="navbar fixed top-0 left-0 w-full">
+    <div className="navbar fixed top-0 left-0 w-full z-50">
       <div className="w-10/12 m-auto h-full flex justify-center items-center">
         <div className="mainnav">
           <ul className="flex space-x-14">
