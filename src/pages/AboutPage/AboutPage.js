@@ -37,9 +37,11 @@ export default function AboutPage() {
                 <p>Front-end development online course</p>
               </li>
               <li className="space-y-2 border p-3 rounded-xl">
-                <p>12/2020</p>
-                <p className="text-xl font-medium">Japanese JLPT</p>
-                <p>N2 level</p>
+                <p>4/2019-4/2021</p>
+                <p className="text-xl font-medium">
+                  Nishinihon International Education Institute
+                </p>
+                <p>Japanese Language Course (N2 level)</p>
               </li>
             </ul>
           </div>

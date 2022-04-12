@@ -35,13 +35,17 @@ export default function HomePage() {
                     </a>
                   </li>
                 </ul>
+                <div className="mt-3 space-y-2">
+                  <p>Email: dellta103@gmail.com</p>
+                  <p>Phone: 0708210532</p>
+                </div>
               </div>
             </div>
             <form
               action="https://drive.google.com/file/d/1Lq39dNWYM0_JW7OQU2k33DQOODgJBnm7/view?usp=sharing"
               target="_blank"
             >
-              <button className="mt-14 rounded-md" type="submit text-center">
+              <button className="mt-6 rounded-md" type="submit text-center">
                 Download my CV
               </button>
             </form>
