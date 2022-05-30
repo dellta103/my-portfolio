@@ -17,10 +17,74 @@ export default function ProjectsPage() {
           spaceBetween={50}
           slidesPerView={1}
           centeredSlides
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
           loop
         >
+          <SwiperSlide className="slider-item">
+            <div className="flex justify-center flex-col items-center space-y-10">
+              <div className="border-2 border-white rounded-lg">
+                <img src="./img/p4.jpg" alt="" />
+              </div>
+              <p className="text-4xl font-semibold">Crwn Clothing Website</p>
+              <div className="space-x-3">
+                <a
+                  href="https://crwn-clothing-kh.netlify.app/"
+                  target="_blank"
+                  className="cursor-pointer border-2 rounded-lg p-2 hover:bg-white hover:text-black duration-300"
+                >
+                  View Project
+                </a>
+                <a
+                  href="https://github.com/dellta103/crwn-clothing.git"
+                  target="_blank"
+                  className="cursor-pointer border-2 rounded-lg p-2 hover:bg-white hover:text-black duration-300"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+            <div className="text-left mt-14 space-y-3">
+              <p className="text-3xl font-semibold">
+                <i className="fa fa-info-circle"></i> Overview
+              </p>
+              <p>A Clothing shop page.</p>
+              <p>Features:</p>
+              <ul>
+                <li>_ Add items to cart</li>
+                <li>_ User authentication using Firebase</li>
+                <li>_ Database management using Firestore Database</li>
+                <li>_ Payment using Stripe</li>
+                <li>_ More...</li>
+              </ul>
+            </div>
+            <div>
+              <p className="text-3xl font-semibold mt-5">
+                <i className="fa fa-code"></i> Technologies used:
+              </p>
+              <div className="mt-3">
+                <ul>
+                  <li>_ HTML</li>
+                  <li>_ CSS</li>
+                  <li>_ JS</li>
+                  <li>_ ReactJS</li>
+                  <li>_ Redux, Redux thunk</li>
+                  <li>_ React Router</li>
+                  <li>_ Rest API</li>
+                  <li>_ Firebase authentication and Firestore database</li>
+                  <li>_ Payment with Stripe</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p className="text-3xl font-semibold mt-5">
+                <i className="fa fa-code"></i> UI Libraries used:
+              </p>
+              <div className="mt-3">
+                <ul>
+                  <li>_ Sass</li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="slider-item">
             <div className="flex justify-center flex-col items-center space-y-10">
               <div className="border-2 border-white rounded-lg">
